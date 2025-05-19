@@ -16,6 +16,10 @@
 
     <!-- Main Content -->
     <q-page-container>
+      
+      <!-- <q-page class="flex flex-center">
+        <img src="/LogoMakeValue.webp" alt="Logo MakeValue" style="max-width: 300px;" />
+      </q-page> -->
       <router-view />
     </q-page-container>
 
