@@ -5,15 +5,25 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: 'services', component: () => import('../views/Services.vue') },
-      { path: 'contact', component: () => import('../views/Contact.vue') }
-    ],
-    
+      {
+        path: '',
+        name: 'home',
+        component: () => import('src/views/Home.vue') 
+      },
+      {
+        path: 'services',
+        name: 'services',
+        component: () => import('src/views/Services.vue')
+      },
+      {
+        path: 'contact',
+        name: 'contact',
+        component: () => import('src/views/Contact.vue')
+      }
+    ]
   },
 
-  // Always leave this as last one,
-  // but you can also remove it
+  // Página de erro para rotas não encontradas
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue'),

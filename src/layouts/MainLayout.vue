@@ -7,9 +7,9 @@
           MakeValue
         </q-toolbar-title>
 
-        <q-btn flat label="Início" to="/" />
-        <q-btn flat label="Serviços" to="/services" />
-        <q-btn flat label="Contato" to="/contact" />
+        <q-btn flat label="Início" :to="{ name: 'home' }" />
+        <q-btn flat label="Serviços" :to="{ name: 'services' }" />
+        <q-btn flat label="Contato" :to="{ name: 'contact' }" />
       </q-toolbar>
     </q-header>
 
@@ -24,7 +24,3 @@
     </q-footer>
   </q-layout>
 </template>
-
-<script setup lang="ts">
-</script>
-

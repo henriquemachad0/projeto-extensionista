@@ -46,7 +46,8 @@ interface Servico {
 const servicos: Servico[] = [
   {
     nome: 'Fluxo de caixa',
-    imagem: 'https://images.unsplash.com/photo-1588776814546-ec7d7ffcb4dd?auto=format&fit=crop&w=640&q=80'
+    // imagem: new URL('@/assets/fluxo-de-caixa.jpg', import.meta.url).href
+    imagem: '@/assets/fluxo-de-caixa.jpg'
   },
   {
     nome: 'Recursos bancários',
