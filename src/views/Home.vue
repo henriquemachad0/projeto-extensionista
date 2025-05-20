@@ -1,12 +1,7 @@
 <template>
   <q-page class="q-pa-xl">
 
-    <!-- Título principal -->
-    <div class="text-h4 text-center q-mb-xl">
-      Bem-vindo à MakeValue
-    </div>
-
-    <!-- Logo centralizada -->
+    <!-- Logo no topo, centralizada -->
     <div class="flex justify-center q-mb-xl">
       <img
         src="/LogoMakeValue.webp"
@@ -17,8 +12,9 @@
 
     <!-- Texto institucional -->
     <div class="text-body1 text-center q-mb-xl">
-      Somos especialistas em soluções inovadoras.<br />
-      Ajudamos empresas a crescer com tecnologia e estratégia.
+      Atuamos com consultoria especializada em <strong>SAP</strong>,<br />
+      com foco na área de <strong>Tesouraria</strong>, ajudando empresas a otimizar seus processos financeiros<br />
+      com tecnologia, experiência e estratégia.
     </div>
 
     <!-- Seção: Nossos Diferenciais -->
@@ -28,16 +24,16 @@
 
     <ul class="text-body1 q-pl-lg" style="max-width: 700px; margin: 0 auto;">
       <li class="q-mb-md">
+        <strong>Especialização em Tesouraria SAP:</strong>
+        Profissionais com experiência prática nos módulos de gestão financeira.
+      </li>
+      <li class="q-mb-md">
         <strong>Atendimento Personalizado:</strong>
-        Cada cliente é único e merece atenção especial.
+        Soluções sob medida conforme a realidade de cada cliente.
       </li>
       <li class="q-mb-md">
-        <strong>Tecnologia de Ponta:</strong>
-        Utilizamos as melhores ferramentas do mercado.
-      </li>
-      <li class="q-mb-md">
-        <strong>Resultados Reais:</strong>
-        Foco em desempenho, métricas e crescimento.
+        <strong>Foco em Resultados:</strong>
+        Projetos voltados à eficiência, conformidade e performance.
       </li>
     </ul>
 
