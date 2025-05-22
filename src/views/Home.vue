@@ -1,41 +1,60 @@
 <template>
-  <q-page class="q-pa-xl">
+  <q-page class="q-mt-lg">
 
-    <!-- Logo no topo, centralizada -->
-    <div class="flex justify-center q-mb-xl">
-      <img
-        src="/LogoMakeValue.webp"
-        alt="Logo da empresa"
-        style="max-width: 300px; width: 100%;"
+    <!-- Banner 1 -->
+    <div class="banner-container">
+      <q-img
+        src="~assets/banner1.png"
+        alt="Banner 1"
+        class="banner-img"
+        :ratio="3840 / 842"
+        fit="cover"
       />
     </div>
 
-    <!-- Texto institucional -->
-    <div class="text-body1 text-center q-mb-xl">
-      Atuamos com consultoria especializada em <strong>SAP</strong>,<br />
-      com foco na área de <strong>Tesouraria</strong>, ajudando empresas a otimizar seus processos financeiros<br />
-      com tecnologia, experiência e estratégia.
+    <!-- Marcas -->
+    <div class="flex flex-center q-my-lg">
+      <q-img
+        src="~assets/marcas.png"
+        alt="Marcas"
+        style="width: 100%; max-width: 1300px; min-width: 300px; height: auto; object-fit: contain;"
+      />
     </div>
 
-    <!-- Seção: Nossos Diferenciais -->
-    <div class="text-h5 text-center q-mb-lg">
-      Nossos Diferenciais
+    <!-- Banner 2 -->
+    <div class="banner-container q-mb-xl">
+      <q-img
+        src="~assets/banner2.png"
+        alt="Banner 2"
+        class="banner-img"
+        :ratio="3840 / 842"
+        fit="cover"
+      />
     </div>
-
-    <ul class="text-body1 q-pl-lg" style="max-width: 700px; margin: 0 auto;">
-      <li class="q-mb-md">
-        <strong>Especialização em Tesouraria SAP:</strong>
-        Profissionais com experiência prática nos módulos de gestão financeira.
-      </li>
-      <li class="q-mb-md">
-        <strong>Atendimento Personalizado:</strong>
-        Soluções sob medida conforme a realidade de cada cliente.
-      </li>
-      <li class="q-mb-md">
-        <strong>Foco em Resultados:</strong>
-        Projetos voltados à eficiência, conformidade e performance.
-      </li>
-    </ul>
 
   </q-page>
 </template>
+
+<script lang="ts">
+export default {
+  name: 'Home'
+}
+</script>
+
+<style scoped>
+.banner-container {
+  width: 100vw; /* força largura total da viewport */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+</style>
