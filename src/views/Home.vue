@@ -1,5 +1,6 @@
 <template>
-  <q-page class="q-mt-lg">
+  <!-- <q-page class="q-mt-lg"> -->
+    <q-page>
 
     <!-- Banner 1 -->
     <div class="banner-container">
