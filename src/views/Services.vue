@@ -1,25 +1,14 @@
-<!-- <template>
-  <q-page class="q-pa-md">
-    <div class="text-h4 q-mb-md">Nossos Serviços</div>
-    <ul class="q-pl-md">
-      <li class="q-mb-sm">Fluxo de caixa</li>
-      <li class="q-mb-sm">Recursos bancários</li>
-      <li class="q-mb-sm">Operações financeiras</li>
-      <li class="q-mb-sm">IFRS 16</li>
-    </ul>
-  </q-page>
-</template> -->
-
-<template>
+ <template>
   <q-page class="q-pa-md">
     <div class="text-h4 q-mb-md">Nossos Serviços</div>
 
+    <!-- Lista de serviços -->
     <div class="row no-wrap scroll-x q-gutter-md">
       <q-card
         v-for="(servico, index) in servicos"
         :key="index"
         class="q-ma-sm shadow-2"
-        style="min-width: 320px; max-width: 320px; height: 400px; border-radius: 18px;"
+        style="min-width: 320px; max-width: 320px; height: 345px; border-radius: 18px;"
         flat
         bordered
         hover
@@ -45,33 +34,32 @@ interface Servico {
 
 const servicos: Servico[] = [
   {
-    nome: 'Fluxo de caixa',
-    // imagem: new URL('@/assets/fluxo-de-caixa.jpg', import.meta.url).href
-    imagem: '@/assets/fluxo-de-caixa.jpg'
+    nome: 'Fluxo de Caixa',
+    imagem: new URL('../assets/fluxo-de-caixa.png', import.meta.url).href
   },
   {
-    nome: 'Recursos bancários',
-    imagem: 'https://images.unsplash.com/photo-1605902711622-cfb43c4437d2?auto=format&fit=crop&w=640&q=80'
+    nome: 'Recursos Bancários',
+    imagem: new URL('../assets/recursos-bancarios.png', import.meta.url).href
   },
   {
-    nome: 'Operações financeiras',
-    imagem: 'https://images.unsplash.com/photo-1569025690938-a00729c9e1f8?auto=format&fit=crop&w=640&q=80'
+    nome: 'Operações Financeiras',
+    imagem: new URL('../assets/transacoes-financeiras.png', import.meta.url).href
   },
   {
-    nome: 'Extrato online',
-    imagem: 'https://images.unsplash.com/photo-1569025690938-a00729c9e1f8?auto=format&fit=crop&w=640&q=80'
+    nome: 'Extrato Online',
+    imagem: new URL('../assets/extrato-online.png', import.meta.url).href
   },
   {
-    nome: 'Conciliação de cartão',
-    imagem: 'https://images.unsplash.com/photo-1569025690938-a00729c9e1f8?auto=format&fit=crop&w=640&q=80'
+    nome: 'Conciliação de Cartão',
+    imagem: new URL('../assets/conciliacao-cartao.png', import.meta.url).href
   },
   {
     nome: 'IFRS 16',
-    imagem: 'https://cdn.pixabay.com/photo/2016/11/29/02/09/business-1863883_1280.jpg'
+    imagem: new URL('../assets/IFRS16.png', import.meta.url).href
   },
   {
-    nome: 'Atualização de moedas',
-    imagem: 'https://images.unsplash.com/photo-1607083206173-06d41b8e4c5e?auto=format&fit=crop&w=640&q=80'
+    nome: 'Atualização de Moedas',
+    imagem: new URL('../assets/atualizacao-moedas.png', import.meta.url).href
   }
 ]
 </script>
@@ -82,5 +70,4 @@ const servicos: Servico[] = [
   -webkit-overflow-scrolling: touch;
 }
 </style>
-
 

@@ -105,6 +105,13 @@
             Sobre nós
           </router-link>
           <router-link
+            :to="{ name: 'services' }"
+            class="text-white q-mb-xs block"
+            style="text-decoration: none;"
+          >
+            Serviços
+          </router-link>
+          <router-link
             :to="{ name: 'contact' }"
             class="text-white q-mb-xs block"
             style="text-decoration: none;"
