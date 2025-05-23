@@ -8,7 +8,7 @@
         v-for="(servico, index) in servicos"
         :key="index"
         class="q-ma-sm shadow-2"
-        style="min-width: 320px; max-width: 320px; height: 345px; border-radius: 18px;"
+        style="min-width: 320px; max-width: 320px; height: 320px; border-radius: 18px;"
         flat
         bordered
         hover
