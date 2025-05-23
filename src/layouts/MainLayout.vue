@@ -90,16 +90,29 @@
 
         <div class="col-12 col-md-3">
           <h6 class="text-h6 q-mb-sm">Informações</h6>
-          <a href="https://example.com/home" class="text-white q-mb-xs block" target="_blank" style="text-decoration: none;">
+          <router-link
+            :to="{ name: 'home' }"
+            class="text-white q-mb-xs block"
+            style="text-decoration: none;"
+          >
             Home
-          </a>
-          <a href="https://example.com/sobre" class="text-white q-mb-xs block" target="_blank" style="text-decoration: none;">
+          </router-link>
+          <router-link
+            :to="{ name: 'about' }"
+            class="text-white q-mb-xs block"
+            style="text-decoration: none;"
+          >
             Sobre nós
-          </a>
-          <a href="https://example.com/contato" class="text-white q-mb-xs block" target="_blank" style="text-decoration: none;">
+          </router-link>
+          <router-link
+            :to="{ name: 'contact' }"
+            class="text-white q-mb-xs block"
+            style="text-decoration: none;"
+          >
             Contato
-          </a>
+          </router-link>
         </div>
+
 
         <div class="col-12 col-md-3">
           <h6 class="text-h6 q-mb-sm">Artigos</h6>
