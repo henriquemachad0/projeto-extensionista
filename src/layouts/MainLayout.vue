@@ -66,7 +66,7 @@
     </q-page-container>
 
     <q-footer elevated class="bg-grey-9 text-white">
-      <div class="row justify-between items-start q-gutter-xs q-px-xl q-pt-xl q-pb-md">
+      <div class="row justify-between items-start q-gutter-xs q-px-xl q-pt-xs q-pb-xs">
         <div class="col-12 col-md-3">
           <h6 class="text-h6 q-mb-sm">
             <q-img
@@ -80,23 +80,25 @@
             <q-icon name="phone" />
             <span>(47) 1234-56789</span>
           </div>
-          <div class="row items-center q-gutter-sm">
-            <q-icon name="place" />
-            <span>R. Dr. João Colin, 1872 - América, Joinville, SC</span>
+          <div class="row items-start q-gutter-sm q-mb-xs">
+            <q-icon name="place" class="q-mt-xs" style="margin-top: 10px;" />
+            <div class="col">
+              Dr. João Colin, 1872 - América, Joinville, SC
+            </div>
           </div>
         </div>
 
         <div class="col-12 col-md-3">
           <h6 class="text-h6 q-mb-sm">Informações</h6>
-          <q-btn flat :to="{ name: 'home' }" class="text-white q-mb-xs block" style="text-decoration: none;">
+          <a href="https://example.com/home" class="text-white q-mb-xs block" target="_blank" style="text-decoration: none;">
             Home
-          </q-btn>
-          <q-btn flat :to="{ name: 'about' }" class="text-white q-mb-xs block" style="text-decoration: none;">
+          </a>
+          <a href="https://example.com/sobre" class="text-white q-mb-xs block" target="_blank" style="text-decoration: none;">
             Sobre nós
-          </q-btn>
-          <q-btn flat :to="{ name: 'contact' }" class="text-white q-mb-xs block" style="text-decoration: none;">
+          </a>
+          <a href="https://example.com/contato" class="text-white q-mb-xs block" target="_blank" style="text-decoration: none;">
             Contato
-          </q-btn>
+          </a>
         </div>
 
         <div class="col-12 col-md-3">
