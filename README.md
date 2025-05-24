@@ -4,7 +4,7 @@ Olá, tudo bom? Primeiramente, seja bem vindo ao nosso respositório, neste resp
 
 # Sobre o Site/Desenvolvimento 👾
 
-O desenvolvilmento do site vem para agregar mais valor a imagem da empresa assim como seus produtos e serviços, tornando-a acessível, conhecida. Havendo assim como consequência, a expansão de seus serviços para novos clientes e reconhecimento.
+O desenvolvimento do site vem para agregar mais valor a imagem da empresa assim como seus produtos e serviços, tornando-a acessível, conhecida. Havendo assim como consequência, a expansão de seus serviços para novos clientes e reconhecimento.
 
 Queremos garantir confiabilidade, segurança, organização e o mais importante de tudo, funcionalidade.
 
