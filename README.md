@@ -1,40 +1,22 @@
-# Projeto Extensionista (projeto-extensionista)
+# Site Institucional - para Desktop 👋
 
-Projeto Extensionista
+Olá, tudo bom? Primeiramente, seja bem vindo ao nosso respositório, neste respositório iremos abordar todo nosso processo de planejamento e desenvolvimento do nosso site para uma instituição, a: **MakeValue**.
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+# Sobre o Site/Desenvolvimento 👾
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+O desenvolvilmento do site vem para agregar mais valor a imagem da empresa assim como seus produtos e serviços, tornando-a acessível, conhecida. Havendo assim como consequência, a expansão de seus serviços para novos clientes e reconhecimento.
 
+Queremos garantir confiabilidade, segurança, organização e o mais importante de tudo, funcionalidade.
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+# Participantes do Projeto 👥
+- Gustavo de Freitas
+- Henrique Alberto
+- Vitor Valentin
 
+## Stack utilizada 🛠
 
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+**Frameworks:** Vue + Quasar.
 
+**Front-end:** JavaScript, HTML e CSS.
 
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+**Back-end:** TypeScript.
