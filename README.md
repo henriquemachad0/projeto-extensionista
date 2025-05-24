@@ -1,6 +1,6 @@
 # Site Institucional - para Desktop 👋
 
-Olá, tudo bom? Primeiramente, seja bem vindo ao nosso respositório, neste respositório iremos abordar todo nosso processo de planejamento e desenvolvimento do nosso site para uma instituição, a: **MakeValue**.
+Olá, tudo bom? Primeiramente, seja bem vindo ao nosso respositório, neste respositório iremos abordar todo nosso processo de planejamento e desenvolvimento do nosso site para a instituição: **MakeValue**.
 
 # Sobre o Site/Desenvolvimento 👾
 
