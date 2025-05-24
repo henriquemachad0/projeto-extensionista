@@ -1,6 +1,5 @@
  <template>
   <q-page class="q-pa-md">
-    <div class="text-h4 q-mb-md">Nossos Serviços</div>
 
     <!-- Lista de serviços -->
     <div class="row no-wrap scroll-x q-gutter-md">

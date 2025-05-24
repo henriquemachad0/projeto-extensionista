@@ -1,43 +1,45 @@
 <template>
-  <q-page class="q-pa-xl">
-
-    <!-- Título principal -->
-    <div class="text-h5 text-center q-mb-lg">
-      Quem somos
+  <div>
+    <div class="q-mt-xl q-px-xl">
+      <div class="q-mb-none">
+        <h2 class="text-h5 text-weight-bold q-mb-none text-center" style="font-family: 'Poppins', sans-serif; color: #009BDF;">
+          SOBRE NÓS
+        </h2>
+        <div class="text-subtitle2 q-mb-sm text-center" style="color: #B8B3B3; font-weight: 400;">
+          Qualidade e especialização é conosco
+        </div>
+      </div>
     </div>
 
-    <!-- Texto institucional -->
-    <div class="text-body1 text-center q-mb-xl">
-      A <strong>MakeValue</strong> é uma consultoria especializada em <strong>SAP</strong>, com foco na área de <strong>Tesouraria</strong>.
-      Atuamos lado a lado com empresas para impulsionar resultados financeiros por meio de tecnologia, conhecimento técnico e estratégia.
-      <br /><br />
-      Nosso diferencial está no uso do sistema <strong>TVM</strong>, um add-on de alto desempenho que amplia as capacidades do SAP na gestão de tesouraria,
-      proporcionando mais controle, automação e segurança nos processos financeiros.
+    <div class="bg-grey-2" style="padding-left: 0; padding-right: 0;">
+      <div class="text-body1 text-justify q-mx-xl q-px-xl q-py-xl">
+        A MakeValue é uma consultoria especializada em SAP, com foco na área de Tesouraria.
+        Atuamos lado a lado com empresas para impulsionar resultados financeiros por meio de tecnologia, conhecimento técnico e estratégia.
+        Nosso diferencial está no uso do sistema TVM, um add-on de alto desempenho que amplia as capacidades do SAP na gestão de tesouraria,
+        proporcionando mais controle, automação e segurança nos processos financeiros.
+      </div>
     </div>
 
-    <!-- Seção: Nossos Diferenciais -->
-    <div class="text-h5 text-center q-mb-lg">
-      Nossos Diferenciais
+    <div class="q-mt-xl q-px-xl q-mx-xl">
+      <div>
+        <h2 class="text-h5 text-weight-bold text-center" style="font-family: 'Poppins', sans-serif; color: #009BDF;">
+          DIFERENCIAIS
+        </h2>
+        <div class="text-body1 text-justify">
+          ✓ Expertise em Tesouraria SAP: Profissionais altamente qualificados com vivência prática nos módulos financeiros do SAP.<br>
+          ✓ Uso do sistema TVM: Integração com o add-on TVM para elevar o nível de automação e análise financeira.<br>
+          ✓ Atendimento Personalizado: Projetos construídos conforme as necessidades e realidade de cada cliente.<br>
+          ✓ Resultados consistentes: Entregamos soluções com foco em performance, compliance e governança.
+        </div>
+      </div>
     </div>
 
-    <ul class="text-body1 q-pl-lg" style="max-width: 700px; margin: 0 auto;">
-      <li class="q-mb-md">
-        <strong>Expertise em Tesouraria SAP:</strong>
-        Profissionais altamente qualificados com vivência prática nos módulos financeiros do SAP.
-      </li>
-      <li class="q-mb-md">
-        <strong>Uso do sistema TVM:</strong>
-        Integração com o add-on TVM para elevar o nível de automação e análise financeira.
-      </li>
-      <li class="q-mb-md">
-        <strong>Atendimento Personalizado:</strong>
-        Projetos construídos conforme as necessidades e realidade de cada cliente.
-      </li>
-      <li class="q-mb-md">
-        <strong>Resultados consistentes:</strong>
-        Entregamos soluções com foco em performance, compliance e governança.
-      </li>
-    </ul>
-
-  </q-page>
+    <div class="q-mt-xl">
+      <q-img
+        src="~assets/team.png"
+        style="width: 100%;"
+        fit="cover"
+      />
+    </div>
+  </div>
 </template>

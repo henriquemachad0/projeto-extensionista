@@ -51,12 +51,6 @@
             class="text-white home-btn"
             :to="{ name: 'services' }"
           />
-          <q-btn
-            label="CONTATO"
-            flat
-            class="text-white home-btn"
-            :to="{ name: 'contact' }"
-          />
         </div>
       </div>
     </q-header>
@@ -110,13 +104,6 @@
             style="text-decoration: none;"
           >
             Serviços
-          </router-link>
-          <router-link
-            :to="{ name: 'contact' }"
-            class="text-white q-mb-xs block"
-            style="text-decoration: none;"
-          >
-            Contato
           </router-link>
         </div>
 
