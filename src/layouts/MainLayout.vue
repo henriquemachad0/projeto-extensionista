@@ -107,25 +107,29 @@
           </router-link>
         </div>
 
-
+<!-- 
         <div class="col-12 col-md-3">
           <h6 class="text-h6 q-mb-sm">Artigos</h6>
-          <a href="https://example.com/artigo" class="text-white q-mb-xs block" target="_blank" style="text-decoration: underline; max-width: 200px; display: block;">
+          <a href="https://makevalue.com.br/case-automacao-conciliacao-bancaria-verzani-makevalue/" class="text-white q-mb-xs block" target="_blank" style="text-decoration: underline; max-width: 200px; display: block;">
             Como a Verzani & Sandrini Automatizou sua Conciliação de Depósitos com a MakeValue
           </a>
-        </div>
+        </div> -->
 
         <div class="col-12 col-md-3">
           <h6 class="text-h6 q-mb-sm">Mídias Sociais</h6>
           <div class="row justify-start q-gutter-sm">
-            <q-img
-              src="~assets/linkedin.png"
-              style="width: 32px; height: 32px; cursor: pointer;"
-            />
-            <q-img
-              src="~assets/instagram.png"
-              style="width: 32px; height: 32px; cursor: pointer;"
-            />
+            <a href="https://www.linkedin.com/company/make-value-s-a/posts/?feedView=all" target="_blank" rel="noopener">
+              <q-img
+                src="~assets/linkedin.png"
+                style="width: 32px; height: 32px; cursor: pointer;"
+              />
+            </a>
+            <a href="https://www.instagram.com/makevaluetvm/" target="_blank" rel="noopener">
+              <q-img
+                src="~assets/instagram.png"
+                style="width: 32px; height: 32px; cursor: pointer;"
+              />
+            </a>
           </div>
         </div>
       </div>
