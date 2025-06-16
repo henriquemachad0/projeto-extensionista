@@ -1,4 +1,4 @@
-# Site Institucional - para Desktop 👋
+# Site Organizacional - para Desktop 👋
 
 Olá, tudo bom? Primeiramente, seja bem vindo ao nosso respositório, neste respositório iremos abordar todo nosso processo de planejamento e desenvolvimento do nosso site para a instituição: **MakeValue**.
 
